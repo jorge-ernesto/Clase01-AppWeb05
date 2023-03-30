@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Formulario de Producto</h2>
+    <form action="resultado">
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="2">Registrar Venta</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Producto</td>
+                    <td><select name="ddlproducto">
+                            <option value="Televisor">Televisor</option>
+                            <option value="Radio">Radio</option>
+                            <option value="Cocina">Cocina</option>
+                            <option value="Laptop">Laptop</option>
+                            <option value="Impresora">Impresora</option>
+                            <option value="Mouse">Mouse</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Precio</td>
+                    <td><input type="text" name="txtprecio" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Cantidad</td>
+                    <td><input type="text" name="txtcantidad" value="" /></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Procesar" /></td>
+                    <td><input type="reset" value="Limpiar" /></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </form>
+</body>
+
+</html>
